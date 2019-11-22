@@ -1,23 +1,20 @@
-//
-//  main.cpp
-//  NeContainer
-//
-//  Created by 天涯路 on 2019/11/22.
-//  Copyright © 2019年 天涯路. All rights reserved.
-//
+## NeContainer 容器
 
+### 一、序列式容器
+> 序列式容器： 元素排列顺序与元素本身无关，由添加顺序决定
+> 序列式容器包括：vector,list,dequeue,queue,stack,priority queue
+
+### 二、关联式容器
+> 序列式容器包括：set map hashmap
+
+### 三、代码示例
+```c++
 #include <iostream>
 #include <vector>
 #include <set>
 #include <map>
 using namespace std;
 
-//容器 stl:标准模板库
-//序列式 与 关联式
-//序列式容器： 元素排列顺序与元素本身无关，由添加顺序决定
-//vector,list,dequeue,queue,stack,priority queue
-
-//关联式容器：set map hashmap
 int main(int argc, const char * argv[]) {
     
     vector<int> vec_1;
@@ -56,3 +53,4 @@ int main(int argc, const char * argv[]) {
     
     return 0;
 }
+```
