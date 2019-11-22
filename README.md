@@ -1,7 +1,7 @@
 ## NeContainer 容器
 
 ### 一、序列式容器
-> 序列式容器： 元素排列顺序与元素本身无关，由添加顺序决定
+> 序列式容器： 元素排列顺序与元素本身无关，由添加顺序决定  
 > 序列式容器包括：vector,list,dequeue,queue,stack,priority queue
 
 ### 二、关联式容器
